@@ -1,0 +1,60 @@
+.backLogin{
+	width: 600px;
+	height: 400px;
+    background-color: #ccc;
+    border: 10px solid white;
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-top: 50%;
+	box-shadow: 0 0 1em;
+	position: relative;
+}
+.login{
+	width: 400px;
+	height: 300px;
+	background-color: white;
+    border: 1px solid black;
+	border-radius: 6px;
+	margin: 0 auto;
+	margin-top: 45px;
+}
+.login h1{
+	font-weight: bold;
+	margin-left: 25px;
+}
+.login input {
+	padding: 20px;
+	border-radius: 6px;
+    width: 300px;
+	margin-left: 25px;
+    box-shadow:  1em
+}
+.login button{
+	width: 340px;
+	padding: 10px;
+	margin-left: 25px;
+	border-radius: 6px;
+	cursor: pointer;
+}
+.login .Forgot{
+    text-decoration: none;
+    color: #ccc;
+    margin-left: 25px;
+	cursor: pointer;
+}
+.login .Register{
+   text-decoration: none;
+   color: blue;
+   margin-right: 0px;
+   cursor: pointer;
+   position: absolute;
+   top:320px;
+   right: 100px;
+}
+.backLogin i{
+	position: absolute;
+	top: -20px;
+	right: 20px;
+    font-size: 40px;
+	cursor: pointer;
+}
